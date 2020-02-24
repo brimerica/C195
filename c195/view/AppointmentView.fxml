@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" id="appmntAnchorPane" fx:controller="c195.view.AppointmentViewController">
+    <children>
+        <HBox AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" alignment="CENTER">
+            <VBox HBox.hgrow="ALWAYS" alignment="CENTER" spacing="20">
+            <TabPane VBox.vgrow="ALWAYS" fx:id="tabPane" >
+                <tabs>
+                    <Tab fx:id="monthTab" closable="false" text="Appointments by Month">
+                        <TableView fx:id="monthAppmntTable" BorderPane.alignment="CENTER_LEFT">
+                            <columns>
+                                <TableColumn fx:id="monthTitle" text="Title" prefWidth="100" /> 
+                                <TableColumn fx:id="monthDescription" text="Description" prefWidth="140"/> 
+                                <TableColumn fx:id="monthStart" text="Start Time" prefWidth="125"/>
+                                <TableColumn fx:id="monthEnd" text="End Time" prefWidth="125"/>
+                                <TableColumn fx:id="monthType" text="Type" prefWidth="75"/>
+                                <TableColumn fx:id="monthContact" text="Contact" prefWidth="80"/>
+                                <TableColumn fx:id="monthUser" text="User" prefWidth="60"/>
+                            </columns>
+                        </TableView>
+                    </Tab>
+                    <Tab fx:id="weeklyTab" closable="false" text="Appointments by Week" >
+                        <TableView fx:id="weekAppmntTable" BorderPane.alignment="CENTER_LEFT" prefWidth="400" >
+                            <columns>
+                                <TableColumn fx:id="weekTitle" text="Title" prefWidth="100" /> 
+                                <TableColumn fx:id="weekDescription" text="Description" prefWidth="140"/> 
+                                <TableColumn fx:id="weekStart" text="Start Time" prefWidth="125"/>
+                                <TableColumn fx:id="weekEnd" text="End Time" prefWidth="125"/>
+                                <TableColumn fx:id="weekType" text="Type" prefWidth="75"/>
+                                <TableColumn fx:id="weekContact" text="Contact" prefWidth="80"/>
+                                <TableColumn fx:id="weekUser" text="User" prefWidth="60"/>
+                            </columns>
+                        </TableView>
+                    </Tab> 
+                </tabs>
+            </TabPane>
+                <HBox alignment="BOTTOM_CENTER" spacing="20">
+                    <VBox.margin>
+                        <javafx.geometry.Insets bottom="25" right="25" left="25" top="25"/>
+                    </VBox.margin>
+                    <Button fx:id="appmntNewBtn" onAction="#handleApptNewBtn" text="New" />
+                    <Button fx:id="appmntEditBtn" onAction="#handleApptEditBtn" text="Edit" />
+                    <Button fx:id="appmntDeleteBtn" onAction="#handleApptDeleteBtn" text="Delete" />    
+                </HBox>
+            </VBox>
+            <VBox HBox.hgrow="ALWAYS" alignment="CENTER" spacing="20" >
+                <GridPane VBox.vgrow="ALWAYS" alignment="CENTER" GridPane.fillHeight="true" GridPane.fillWidth="true" gridLinesVisible="false" vgap="20" hgap="15" >
+                    <VBox.margin>
+                        <javafx.geometry.Insets bottom="10" right="10" left="10" top="10"/>
+                    </VBox.margin>
+                    <Label text="Appointment" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2" GridPane.halignment="CENTER">
+                        <font>
+                            <Font name="System Bold" size="18"/> 
+                        </font>
+                    </Label>
+                    <Label text="Title" GridPane.columnIndex="0" GridPane.rowIndex="1" textAlignment="RIGHT" /> 
+                    <TextField fx:id="titleTextField" GridPane.columnIndex="1" GridPane.rowIndex="1" alignment="CENTER_LEFT" />
+                    <Label text="Description" GridPane.columnIndex="0" GridPane.rowIndex="2" textAlignment="RIGHT"/>
+                    <TextField fx:id="descTextField" GridPane.columnIndex="1" GridPane.rowIndex="2" alignment="CENTER_LEFT" />
+                    <Label text="Contact" GridPane.columnIndex="0" GridPane.rowIndex="3" textAlignment="RIGHT"/> 
+                    <ComboBox fx:id="contactComboBox" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+                    <Label text="Type" GridPane.columnIndex="0" GridPane.rowIndex="4" textAlignment="RIGHT"/> 
+                    <ComboBox fx:id="typeComboBox" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+                    <Label text="Date" GridPane.columnIndex="0" GridPane.rowIndex="5" textAlignment="RIGHT"/> 
+                    <DatePicker fx:id="dateDP" onAction="#handleDateUpdate"  GridPane.columnIndex="1" GridPane.rowIndex="5"/>
+                    <Label text="Start Time" GridPane.columnIndex="0" GridPane.rowIndex="6" textAlignment="RIGHT"/>
+                    <ComboBox fx:id="startTimeComboBox" GridPane.columnIndex="1" GridPane.rowIndex="6"/>  <!--onAction="#handleStartUpdate" -->
+                    <Label text="End Time" GridPane.columnIndex="0" GridPane.rowIndex="7" textAlignment="RIGHT"/>
+                    <ComboBox fx:id="endTimeComboBox" GridPane.columnIndex="1" GridPane.rowIndex="7"/> 
+                </GridPane>
+                <HBox alignment="BOTTOM_CENTER" spacing="20">
+                    <VBox.margin>
+                        <javafx.geometry.Insets bottom="25" right="25" left="25" top="25"/>
+                    </VBox.margin>
+                    <Button fx:id="appmntSaveBtn" onAction="#handleApptSaveBtn" text="Save"/>
+                    <Button fx:id="appmntCancelBtn" onAction="#handleApptCancelBtn" text="Cancel"/> 
+                </HBox>
+            </VBox>
+        </HBox>
+    </children>
+</AnchorPane>

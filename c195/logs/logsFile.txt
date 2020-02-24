@@ -1,0 +1,494 @@
+2019-11-17T07:08:11.906 Successful log in of user test
+2019-11-17T07:09:04.792 Successful log in of user Brian
+2019-11-17T07:09:33.036LOGIN ERROR: reastis not a valid username or bad password.
+2019-11-17T07:27:07.286 Successful login of user test
+2019-11-17T07:27:20.270 test logged out of the application.
+2019-11-17T07:27:25.657 Successful login of user Brian
+2019-11-17T07:27:41.911 Brian exited the application.
+2019-11-17T07:48:39.185 LOGIN ERROR: Brianis not a valid username or bad password.
+2019-11-17T07:48:42.449 Successful login of user Brian
+2019-11-17T07:49:08.550 Brian exited the application.
+2019-11-17T07:51:34.935 LOGIN ERROR: Brian is not a valid username or bad password.
+2019-11-17T07:51:37.812 Successful login of user Brian
+2019-11-17T07:52:07.335 Brian exited the application.
+2019-11-17T07:59:15.587 Successful login of user Brian
+2019-11-17T07:59:48.360 Brian logged out of the application.
+2019-11-17T07:59:54.762 LOGIN ERROR: Test is not a valid username or bad password.
+2019-11-17T07:59:57.269 Successful login of user Test
+2019-11-17T08:00:09.893 test exited the application.
+2019-11-17T08:08:38.682 Successful login of user Brian
+2019-11-17T08:10:34.768 Brian exited the application.
+2019-11-17T08:13:06.681 Successful login of user Brian
+2019-11-17T08:49:45.794 Brian exited the application.
+2019-11-17T08:50:22.371 Successful login of user Brian
+2019-11-17T09:46:33.359 Brian exited the application.
+2019-11-17T09:46:44.313 Successful login of user Brian
+2019-11-17T09:47:00.059 Brian exited the application.
+2019-11-17T09:55:53.783 Successful login of user Brian
+2019-11-17T09:58:38.799 Brian exited the application.
+2019-11-17T10:01:01.857 Successful login of user Brian
+2019-11-17T10:01:22.368 Brian exited the application.
+2019-11-17T10:04:19.739 Successful login of user Brian
+2019-11-17T10:06:29.419 Brian exited the application.
+2019-11-17T10:06:39.250 Successful login of user Brian
+2019-11-17T10:06:51.023 Brian exited the application.
+2019-11-17T10:08:46.168 Successful login of user Brian
+2019-11-17T10:09:01.894 Brian exited the application.
+2019-11-17T10:09:21.412 Successful login of user Brian
+2019-11-17T10:16:27.243 Brian exited the application.
+2019-11-17T10:16:38.617 Successful login of user Brian
+2019-11-17T10:17:06.520 Brian exited the application.
+2019-11-17T10:23:02.565 Successful login of user Brian
+2019-11-17T10:24:15.178 Brian exited the application.
+2019-11-17T10:24:27.057 Successful login of user Brian
+2019-11-17T10:24:50.860 Brian exited the application.
+2019-11-17T10:31:22.942 LOGIN ERROR: Brian is not a valid username or bad password.
+2019-11-17T10:31:27.951 Successful login of user Brian
+2019-11-17T10:31:53.205 Brian exited the application.
+2019-11-17T10:33:24.757 Successful login of user Brian
+2019-11-17T10:34:16.001 Brian exited the application.
+2019-11-17T10:35:57.705 LOGIN ERROR: Brian is not a valid username or bad password.
+2019-11-17T10:36:01.866 Successful login of user Brian
+2019-11-17T10:38:23.721 Brian exited the application.
+2019-11-17T12:56:43.885 Successful login of user Brian
+2019-11-17T13:07:21.264 Brian exited the application.
+2019-11-17T13:07:34.522 Successful login of user Brian
+2019-11-17T13:11:45.234 Brian exited the application.
+2019-11-17T13:15:43.832 Successful login of user Brian
+2019-11-17T13:16:08.221 Brian exited the application.
+2019-11-17T13:17:23.850 Successful login of user Brian
+2019-11-17T13:19:35.447 Brian exited the application.
+2019-11-17T13:19:51.095 Successful login of user Brian
+2019-11-17T13:26:16.322 Brian exited the application.
+2019-11-17T13:26:29.505 Successful login of user Brian
+2019-11-17T15:42:59.137 Brian exited the application.
+2019-11-17T16:39:26.714 Successful login of user test
+2019-11-17T16:40:20.827 test exited the application.
+2019-11-17T17:01:25.633 Successful login of user test
+2019-11-17T17:14:31.084 test exited the application.
+2019-11-17T17:15:02.815 Successful login of user test
+2019-11-17T17:15:14.016 test exited the application.
+2019-11-17T17:18:17.242 Successful login of user test
+2019-11-17T17:38:32.388 test exited the application.
+2019-11-17T18:00:06.817 Successful login of user test
+2019-11-17T18:18:28.380 test exited the application.
+2019-11-17T18:18:38.060 Successful login of user test
+2019-11-17T18:21:40.516 test exited the application.
+2019-11-17T18:39:33.904 Successful login of user test
+2019-11-17T18:48:09.337 test exited the application.
+2019-11-17T18:51:25.536 Successful login of user test
+2019-11-17T18:58:24.911 test exited the application.
+2019-11-17T19:24:33.918 Successful login of user test
+2019-11-17T19:35:25.459 test exited the application.
+2019-11-17T19:35:35.603 Successful login of user test
+2019-11-17T19:38:08.294 test exited the application.
+2019-11-17T19:38:16.990 Successful login of user test
+2019-11-17T19:38:52.734 test exited the application.
+2019-11-17T19:39:03.521 Successful login of user Brian
+2019-11-17T19:44:43.223 Brian exited the application.
+2019-11-17T19:44:52.056 Successful login of user test
+2019-11-17T19:46:45.839 test exited the application.
+2019-11-17T19:49:06.733 LOGIN ERROR: Brian is not a valid username or bad password.
+2019-11-17T19:49:10.165 Successful login of user Brian
+2019-11-17T19:53:54.302 Brian exited the application.
+2019-11-17T20:03:45.850 Successful login of user test
+2019-11-17T20:45:05.670 test exited the application.
+2019-11-17T20:45:15.688 Successful login of user test
+2019-11-17T20:46:34.448 test exited the application.
+2019-11-17T20:47:27.768 Successful login of user test
+2019-11-17T20:50:52.486 test exited the application.
+2019-11-17T20:50:57.875 Successful login of user test
+2019-11-17T20:51:46.248 test exited the application.
+2019-11-17T20:56:15.816 Successful login of user test
+2019-11-17T21:10:42.078 test exited the application.
+2019-11-17T21:11:03.093 Successful login of user Brian
+2019-11-17T21:11:33.844 Brian exited the application.
+2019-11-17T21:12:41.096 Successful login of user test
+2019-11-17T21:14:49.128 test exited the application.
+2019-11-17T21:15:00.098 LOGIN ERROR: test is not a valid username or bad password.
+2019-11-17T21:15:02.355 Successful login of user test
+2019-11-17T21:19:00.932 test exited the application.
+2019-11-17T21:19:17.379 Successful login of user test
+2019-11-17T21:19:59.053 test exited the application.
+2019-11-17T21:28:48.558 Application exited before login.
+2019-11-17T21:29:01.706 Successful login of user test
+2019-11-17T21:30:24.120 test exited the application.
+2019-11-17T21:49:43.581 Successful login of user Brian
+2019-11-17T21:52:14.991 Brian exited the application.
+2019-11-17T21:52:28.911 Successful login of user Brian
+2019-11-17T22:00:55.464 Brian exited the application.
+2019-11-17T22:01:09.056 Successful login of user test
+2019-11-17T22:01:47.293 test exited the application.
+2019-11-17T22:03:34.647 Successful login of user test
+2019-11-17T22:04:06.371 test exited the application.
+2019-11-17T22:05:39.896 Successful login of user test
+2019-11-17T22:06:42.611 test exited the application.
+2019-11-17T22:06:52.075 Successful login of user test
+2019-11-17T22:10:46.456 test exited the application.
+2019-11-17 Successful login of user Test
+2019-11-17 test exited the application.
+11/18/19 4:19 AM Successful login of user Test
+11/17/19 10:19 PM test exited the application.
+18/11/2019 04:29:24 UTC LOGIN ERROR: Brain is not a valid username or bad password.
+18/11/2019 04:29:24 UTC Successful login of user Brian
+18/11/2019 04:29:24 UTC Brian exited the application.
+18/11/2019 04:51:22 UTC -- Application exited before login.
+18/11/2019 04:53:54 UTC -- Successful login of user test
+18/11/2019 04:53:54 UTC -- test exited the application.
+18/11/2019 04:59:03 UTC -- Application exited before login.
+18/11/2019 05:00:15 UTC -- Successful login of user Brian
+18/11/2019 05:00:15 UTC -- Brian exited the application.
+18/11/2019 05:07:24 UTC -- Successful login of user test
+18/11/2019 05:07:24 UTC -- test exited the application.
+18/11/2019 05:13:20 UTC -- Successful login of user test
+18/11/2019 05:13:20 UTC -- test exited the application.
+18/11/2019 13:56:44 UTC -- Successful login of user test
+18/11/2019 13:56:44 UTC -- test exited the application.
+18/11/2019 13:58:59 UTC -- LOGIN ERROR: Brian is not a valid username or bad password.
+18/11/2019 13:58:59 UTC -- Successful login of user Brian
+18/11/2019 13:58:59 UTC -- Brian exited the application.
+18/11/2019 14:04:14 UTC -- LOGIN ERROR: Brian is not a valid username or bad password.
+18/11/2019 14:04:14 UTC -- Successful login of user Brian
+18/11/2019 14:04:14 UTC -- Brian exited the application.
+18/11/2019 14:19:56 UTC -- Successful login of user Brian
+18/11/2019 14:19:56 UTC -- Brian exited the application.
+18/11/2019 14:29:45 UTC -- Successful login of user Brian
+18/11/2019 14:29:45 UTC -- Brian exited the application.
+18/11/2019 14:35:08 UTC -- Successful login of user Brian
+18/11/2019 14:35:08 UTC -- Brian exited the application.
+18/11/2019 14:38:53 UTC -- Successful login of user Brian
+18/11/2019 14:38:53 UTC -- Brian exited the application.
+18/11/2019 14:39:38 UTC -- Successful login of user Brian
+18/11/2019 14:39:38 UTC -- Brian exited the application.
+18/11/2019 14:40:52 UTC -- Successful login of user Brian
+18/11/2019 14:40:52 UTC -- Brian exited the application.
+18/11/2019 14:43:57 UTC -- Successful login of user test
+18/11/2019 14:43:57 UTC -- test exited the application.
+18/11/2019 14:46:17 UTC -- Successful login of user test
+18/11/2019 14:46:17 UTC -- test exited the application.
+18/11/2019 14:47:09 UTC -- Successful login of user Brian
+18/11/2019 14:47:09 UTC -- Brian exited the application.
+18/11/2019 15:00:58 UTC -- Successful login of user Brian
+18/11/2019 15:00:58 UTC -- Brian exited the application.
+18/11/2019 16:08:09 UTC -- Successful login of user test
+18/11/2019 16:08:09 UTC -- test exited the application.
+18/11/2019 16:25:00 UTC -- Successful login of user test
+18/11/2019 16:25:00 UTC -- test exited the application.
+18/11/2019 16:50:10 UTC -- Successful login of user Brian
+18/11/2019 16:50:10 UTC -- Brian exited the application.
+18/11/2019 16:51:17 UTC -- Successful login of user test
+18/11/2019 16:51:17 UTC -- test exited the application.
+18/11/2019 16:52:39 UTC -- Successful login of user Brian
+18/11/2019 16:52:39 UTC -- Brian exited the application.
+18/11/2019 17:03:59 UTC -- Successful login of user test
+18/11/2019 17:03:59 UTC -- test exited the application.
+18/11/2019 17:06:47 UTC -- Successful login of user Brian
+18/11/2019 17:06:47 UTC -- Brian exited the application.
+18/11/2019 17:09:54 UTC -- Successful login of user test
+18/11/2019 17:09:54 UTC -- test exited the application.
+18/11/2019 19:07:34 UTC -- Successful login of user test
+18/11/2019 19:07:34 UTC -- test exited the application.
+18/11/2019 19:37:24 UTC -- Successful login of user Brian
+18/11/2019 19:37:24 UTC -- Brian exited the application.
+18/11/2019 19:48:26 UTC -- LOGIN ERROR: Brian is not a valid username or bad password.
+18/11/2019 19:48:26 UTC -- Successful login of user Brian
+18/11/2019 19:48:26 UTC -- Brian exited the application.
+18/11/2019 20:34:05 UTC -- Successful login of user test
+18/11/2019 20:34:05 UTC -- test exited the application.
+18/11/2019 20:39:17 UTC -- Successful login of user Brian
+18/11/2019 20:39:17 UTC -- Brian exited the application.
+18/11/2019 20:40:22 UTC -- Successful login of user test
+18/11/2019 20:40:22 UTC -- test exited the application.
+18/11/2019 20:53:55 UTC -- Successful login of user Brian
+18/11/2019 20:53:55 UTC -- Brian exited the application.
+18/11/2019 21:17:00 UTC -- Successful login of user test
+18/11/2019 21:17:00 UTC -- test exited the application.
+18/11/2019 22:27:10 UTC -- Successful login of user test
+18/11/2019 22:27:10 UTC -- test exited the application.
+18/11/2019 22:31:10 UTC -- Successful login of user test
+18/11/2019 22:31:10 UTC -- test exited the application.
+18/11/2019 22:36:55 UTC -- Successful login of user test
+18/11/2019 22:36:55 UTC -- test exited the application.
+18/11/2019 22:47:16 UTC -- Successful login of user test
+18/11/2019 22:47:16 UTC -- test exited the application.
+19/11/2019 01:04:50 UTC -- Successful login of user test
+19/11/2019 01:04:50 UTC -- test exited the application.
+19/11/2019 01:12:28 UTC -- Successful login of user test
+19/11/2019 01:12:28 UTC -- test exited the application.
+19/11/2019 01:48:49 UTC -- Successful login of user Brian
+19/11/2019 01:48:49 UTC -- Brian exited the application.
+19/11/2019 02:07:35 UTC -- Successful login of user Tom
+19/11/2019 02:07:35 UTC -- Tom exited the application.
+19/11/2019 02:12:38 UTC -- Successful login of user Percy
+19/11/2019 02:12:38 UTC -- Percy exited the application.
+19/11/2019 02:34:22 UTC -- Successful login of user Jimmy
+19/11/2019 02:34:22 UTC -- Jimmy exited the application.
+19/11/2019 02:59:53 UTC -- Successful login of user test
+19/11/2019 02:59:53 UTC -- test exited the application.
+19/11/2019 03:10:58 UTC -- Successful login of user Brian
+19/11/2019 03:10:58 UTC -- Brian logged out of the application.
+19/11/2019 03:10:58 UTC -- Application exited before login.
+19/11/2019 03:12:58 UTC -- Successful login of user Brian
+19/11/2019 03:12:58 UTC -- Brian exited the application.
+19/11/2019 03:14:07 UTC -- Successful login of user Brian
+19/11/2019 03:14:07 UTC -- Brian exited the application.
+19/11/2019 03:18:29 UTC -- Successful login of user Brian
+19/11/2019 03:18:29 UTC -- Brian exited the application.
+19/11/2019 03:19:49 UTC -- Successful login of user Brian
+19/11/2019 03:19:49 UTC -- Brian exited the application.
+19/11/2019 04:10:24 UTC -- Successful login of user Brian
+19/11/2019 04:10:24 UTC -- Brian exited the application.
+19/11/2019 04:28:03 UTC -- Successful login of user Brian
+19/11/2019 04:28:03 UTC -- Brian exited the application.
+19/11/2019 04:31:19 UTC -- Successful login of user Brian
+19/11/2019 04:31:19 UTC -- Brian exited the application.
+19/11/2019 04:42:10 UTC -- Successful login of user Brian
+19/11/2019 04:42:10 UTC -- Brian exited the application.
+19/11/2019 04:56:34 UTC -- Successful login of user test
+19/11/2019 04:56:34 UTC -- test exited the application.
+19/11/2019 05:00:20 UTC -- Successful login of user Jerry
+19/11/2019 05:00:20 UTC -- Jerry exited the application.
+19/11/2019 05:03:28 UTC -- Successful login of user Brian
+19/11/2019 05:03:28 UTC -- Brian exited the application.
+19/11/2019 05:07:48 UTC -- Successful login of user Percy
+19/11/2019 05:07:48 UTC -- Percy exited the application.
+19/11/2019 05:11:31 UTC -- Successful login of user Brian
+19/11/2019 05:11:31 UTC -- Brian exited the application.
+19/11/2019 05:13:38 UTC -- Successful login of user Jimmy
+19/11/2019 05:13:38 UTC -- Jimmy exited the application.
+19/11/2019 05:22:45 UTC -- Successful login of user Brian
+19/11/2019 05:22:45 UTC -- Brian exited the application.
+19/11/2019 05:24:54 UTC -- Successful login of user Brian
+19/11/2019 05:24:54 UTC -- Brian exited the application.
+19/11/2019 05:30:27 UTC -- Successful login of user Brian
+19/11/2019 05:30:27 UTC -- Brian logged out of the application.
+19/11/2019 05:30:27 UTC -- Successful login of user Jimmy
+19/11/2019 05:30:27 UTC -- Jimmy logged out of the application.
+19/11/2019 05:30:27 UTC -- Application exited before login.
+19/11/2019 05:45:22 UTC -- Successful login of user Brian
+19/11/2019 05:45:22 UTC -- Brian exited the application.
+19/11/2019 14:39:53 UTC -- Successful login of user Brian
+19/11/2019 19:14:24 UTC -- Successful login of user Brian
+19/11/2019 19:14:24 UTC -- Brian exited the application.
+19/11/2019 14:39:53 UTC -- Brian exited the application.
+19/11/2019 19:23:21 UTC -- Successful login of user Brian
+19/11/2019 19:23:21 UTC -- Brian exited the application.
+19/11/2019 19:28:25 UTC -- Successful login of user Brian
+19/11/2019 19:28:25 UTC -- Brian exited the application.
+19/11/2019 20:33:48 UTC -- Successful login of user Brian
+19/11/2019 20:33:48 UTC -- Brian exited the application.
+19/11/2019 21:08:39 UTC -- Successful login of user Brian
+19/11/2019 21:08:39 UTC -- Brian exited the application.
+19/11/2019 21:12:55 UTC -- Successful login of user test
+19/11/2019 21:12:55 UTC -- test exited the application.
+19/11/2019 21:23:27 UTC -- Successful login of user Brian
+19/11/2019 21:23:27 UTC -- Brian exited the application.
+19/11/2019 21:35:59 UTC -- Successful login of user Jerry
+19/11/2019 21:35:59 UTC -- Jerry exited the application.
+19/11/2019 21:41:08 UTC -- Successful login of user Brian
+19/11/2019 21:41:08 UTC -- Brian logged out of the application.
+19/11/2019 21:41:08 UTC -- Successful login of user Jerry
+19/11/2019 21:41:08 UTC -- Jerry exited the application.
+19/11/2019 21:44:41 UTC -- Successful login of user Jerry
+19/11/2019 21:44:41 UTC -- Jerry exited the application.
+19/11/2019 23:56:47 UTC -- Successful login of user Jerry
+19/11/2019 23:56:47 UTC -- Jerry exited the application.
+20/11/2019 00:11:40 UTC -- Successful login of user Jerry
+20/11/2019 00:11:40 UTC -- Jerry exited the application.
+20/11/2019 00:22:46 UTC -- Successful login of user Jerry
+20/11/2019 00:22:46 UTC -- Jerry exited the application.
+20/11/2019 00:23:39 UTC -- Successful login of user Jerry
+20/11/2019 00:23:39 UTC -- Jerry exited the application.
+20/11/2019 00:25:36 UTC -- Successful login of user Jerry
+20/11/2019 00:25:36 UTC -- Jerry exited the application.
+20/11/2019 00:26:25 UTC -- Successful login of user Jerry
+20/11/2019 00:26:25 UTC -- Jerry exited the application.
+20/11/2019 00:29:58 UTC -- Successful login of user Jerry
+20/11/2019 00:29:58 UTC -- Jerry exited the application.
+20/11/2019 00:30:56 UTC -- Successful login of user Jerry
+20/11/2019 00:30:56 UTC -- Jerry exited the application.
+20/11/2019 00:31:51 UTC -- Successful login of user Jerry
+20/11/2019 00:31:51 UTC -- Jerry exited the application.
+20/11/2019 00:54:48 UTC -- Successful login of user Jerry
+20/11/2019 00:54:48 UTC -- Jerry exited the application.
+20/11/2019 00:56:10 UTC -- Successful login of user Jerry
+20/11/2019 00:56:10 UTC -- Jerry exited the application.
+20/11/2019 04:29:28 UTC -- Successful login of user Jerry
+20/11/2019 04:29:28 UTC -- Jerry exited the application.
+20/11/2019 04:30:03 UTC -- Successful login of user Jerry
+20/11/2019 04:30:03 UTC -- Jerry exited the application.
+20/11/2019 04:32:44 UTC -- Successful login of user Jerry
+20/11/2019 04:32:44 UTC -- Jerry exited the application.
+20/11/2019 04:49:29 UTC -- Successful login of user Jerry
+20/11/2019 04:49:29 UTC -- Jerry exited the application.
+20/11/2019 15:09:57 UTC -- Successful login of user Jerry
+20/11/2019 15:09:57 UTC -- Jerry exited the application.
+20/11/2019 15:14:53 UTC -- Successful login of user Jerry
+20/11/2019 15:14:53 UTC -- Jerry exited the application.
+20/11/2019 15:24:11 UTC -- Successful login of user Jerry
+20/11/2019 15:24:11 UTC -- Jerry exited the application.
+20/11/2019 15:46:41 UTC -- Successful login of user Jerry
+20/11/2019 15:46:41 UTC -- Jerry exited the application.
+20/11/2019 15:48:29 UTC -- Successful login of user Jerry
+20/11/2019 15:48:29 UTC -- Jerry exited the application.
+20/11/2019 16:43:36 UTC -- Successful login of user Jerry
+20/11/2019 16:43:36 UTC -- Jerry exited the application.
+20/11/2019 16:47:02 UTC -- Successful login of user Jerry
+20/11/2019 16:47:02 UTC -- Jerry exited the application.
+20/11/2019 16:53:07 UTC -- Application exited before login.
+20/11/2019 16:55:14 UTC -- Successful login of user Jerry
+20/11/2019 16:55:14 UTC -- Jerry exited the application.
+20/11/2019 17:03:20 UTC -- Successful login of user Jerry
+20/11/2019 17:03:20 UTC -- Jerry exited the application.
+20/11/2019 17:25:27 UTC -- Successful login of user Jerry
+20/11/2019 17:25:27 UTC -- Jerry exited the application.
+20/11/2019 17:28:06 UTC -- Successful login of user Jerry
+20/11/2019 17:28:06 UTC -- Jerry exited the application.
+20/11/2019 17:29:45 UTC -- Successful login of user Jerry
+20/11/2019 17:29:45 UTC -- Jerry exited the application.
+20/11/2019 18:04:24 UTC -- Successful login of user Jerry
+20/11/2019 18:04:24 UTC -- Jerry exited the application.
+20/11/2019 18:08:12 UTC -- Successful login of user Jerry
+20/11/2019 18:08:12 UTC -- Jerry exited the application.
+20/11/2019 18:09:25 UTC -- Successful login of user Jerry
+20/11/2019 18:09:25 UTC -- Jerry exited the application.
+20/11/2019 18:11:17 UTC -- Successful login of user Jerry
+20/11/2019 18:11:17 UTC -- Jerry exited the application.
+20/11/2019 18:16:34 UTC -- Successful login of user Jerry
+20/11/2019 18:16:34 UTC -- Jerry exited the application.
+20/11/2019 18:19:13 UTC -- Successful login of user Jerry
+20/11/2019 18:19:13 UTC -- Jerry exited the application.
+20/11/2019 18:21:52 UTC -- Successful login of user Jerry
+20/11/2019 18:21:52 UTC -- Jerry exited the application.
+20/11/2019 18:29:38 UTC -- Successful login of user Jerry
+20/11/2019 18:29:38 UTC -- Jerry exited the application.
+20/11/2019 18:32:11 UTC -- Successful login of user Jerry
+20/11/2019 18:32:11 UTC -- Jerry exited the application.
+20/11/2019 18:42:20 UTC -- Successful login of user Brian
+20/11/2019 18:42:20 UTC -- Brian exited the application.
+20/11/2019 18:47:09 UTC -- Successful login of user Jerry
+20/11/2019 18:47:09 UTC -- Jerry exited the application.
+20/11/2019 18:50:44 UTC -- Successful login of user Brian
+20/11/2019 18:50:44 UTC -- Brian exited the application.
+20/11/2019 19:02:10 UTC -- Successful login of user Brian
+20/11/2019 19:02:10 UTC -- Brian exited the application.
+20/11/2019 19:05:45 UTC -- Successful login of user Brian
+20/11/2019 19:05:45 UTC -- Brian exited the application.
+20/11/2019 19:07:41 UTC -- Successful login of user Brian
+20/11/2019 19:07:41 UTC -- Brian exited the application.
+20/11/2019 20:08:08 UTC -- Successful login of user Brian
+20/11/2019 20:08:08 UTC -- Brian exited the application.
+20/11/2019 20:18:17 UTC -- Successful login of user Brian
+20/11/2019 20:18:17 UTC -- Brian exited the application.
+20/11/2019 20:30:12 UTC -- Successful login of user Brian
+20/11/2019 20:30:12 UTC -- Brian exited the application.
+20/11/2019 20:31:17 UTC -- Successful login of user Brian
+20/11/2019 20:31:17 UTC -- Brian exited the application.
+20/11/2019 20:36:42 UTC -- Successful login of user Brian
+20/11/2019 20:36:42 UTC -- Brian exited the application.
+20/11/2019 20:46:35 UTC -- Successful login of user Brian
+20/11/2019 20:46:35 UTC -- Brian exited the application.
+20/11/2019 21:14:06 UTC -- LOGIN ERROR: Jerry is not a valid username or bad password.
+20/11/2019 21:14:06 UTC -- Successful login of user Brian
+20/11/2019 21:14:06 UTC -- Brian exited the application.
+20/11/2019 21:28:15 UTC -- Successful login of user Brian
+20/11/2019 21:28:15 UTC -- Brian logged out of the application.
+20/11/2019 21:28:15 UTC -- Application exited before login.
+20/11/2019 21:35:40 UTC -- Successful login of user Brian
+20/11/2019 21:35:40 UTC -- Brian logged out of the application.
+20/11/2019 21:35:40 UTC -- Successful login of user Brian
+20/11/2019 21:35:40 UTC -- Brian exited the application.
+20/11/2019 23:35:17 UTC -- Successful login of user Brian
+20/11/2019 23:35:17 UTC -- Brian exited the application.
+21/11/2019 00:27:39 UTC -- Successful login of user Brian
+21/11/2019 00:27:39 UTC -- Brian exited the application.
+21/11/2019 00:54:45 UTC -- Successful login of user brian
+21/11/2019 00:54:45 UTC -- Brian exited the application.
+21/11/2019 01:11:55 UTC -- Successful login of user test
+21/11/2019 01:11:55 UTC -- test logged out of the application.
+21/11/2019 01:11:55 UTC -- Application exited before login.
+21/11/2019 01:18:44 UTC -- Successful login of user test
+21/11/2019 01:18:44 UTC -- test exited the application.
+21/11/2019 01:20:10 UTC -- Successful login of user test
+21/11/2019 01:20:10 UTC -- test logged out of the application.
+21/11/2019 01:20:10 UTC -- Application exited before login.
+21/11/2019 01:24:14 UTC -- LOGIN ERROR: testt is not a valid username or bad password.
+21/11/2019 01:24:14 UTC -- Application exited before login.
+21/11/2019 01:38:40 UTC -- LOGIN ERROR: test is not a valid username or bad password.
+21/11/2019 01:38:40 UTC -- Application exited before login.
+21/11/2019 01:48:48 UTC -- Successful login of user test
+21/11/2019 01:48:48 UTC -- test exited the application.
+20/11/2019 22:01:11 UTC -- Successful login of user test
+20/11/2019 22:01:11 UTC -- test exited the application.
+20/11/2019 22:03:08 UTC -- Successful login of user test
+20/11/2019 22:03:08 UTC -- test exited the application.
+20/11/2019 22:08:11 UTC -- Successful login of user test
+20/11/2019 22:08:11 UTC -- test exited the application.
+20/11/2019 22:09:44 UTC -- Successful login of user test
+20/11/2019 22:09:44 UTC -- test exited the application.
+21/11/2019 02:14:52 UTC -- Successful login of user test
+21/11/2019 02:14:52 UTC -- test exited the application.
+21/11/2019 02:19:56 UTC -- Successful login of user test
+21/11/2019 02:19:56 UTC -- test exited the application.
+20/11/2019 22:01:50 UTC -- Successful login of user test
+20/11/2019 22:01:50 UTC -- test exited the application.
+21/11/2019 02:21:42 UTC -- Application exited before login.
+21/11/2019 03:05:34 UTC -- Successful login of user test
+21/11/2019 03:05:34 UTC -- test exited the application.
+21/11/2019 15:52:03 UTC -- Successful login of user test
+21/11/2019 15:52:03 UTC -- test exited the application.
+21/11/2019 16:22:24 UTC -- Successful login of user test
+21/11/2019 16:22:24 UTC -- test exited the application.
+21/11/2019 16:31:49 UTC -- Successful login of user test
+21/11/2019 16:31:49 UTC -- test logged out of the application.
+21/11/2019 16:31:49 UTC -- Application exited before login.
+21/11/2019 16:38:03 UTC -- Successful login of user test
+21/11/2019 16:38:03 UTC -- test exited the application.
+21/11/2019 16:44:38 UTC -- Successful login of user test
+21/11/2019 16:44:38 UTC -- test exited the application.
+21/11/2019 16:49:59 UTC -- Successful login of user test
+21/11/2019 16:49:59 UTC -- test exited the application.
+21/11/2019 16:58:01 UTC -- LOGIN ERROR: teset is not a valid username or bad password.
+21/11/2019 16:58:01 UTC -- Successful login of user test
+21/11/2019 16:58:01 UTC -- test exited the application.
+21/11/2019 17:00:40 UTC -- Successful login of user test
+21/11/2019 17:00:40 UTC -- test exited the application.
+21/11/2019 17:29:52 UTC -- Successful login of user test
+21/11/2019 17:29:52 UTC -- test exited the application.
+21/11/2019 17:37:29 UTC -- Successful login of user test
+21/11/2019 17:37:29 UTC -- test exited the application.
+21/11/2019 17:53:58 UTC -- Successful login of user test
+21/11/2019 17:53:58 UTC -- test exited the application.
+21/11/2019 17:58:37 UTC -- Successful login of user test
+21/11/2019 17:58:37 UTC -- test exited the application.
+21/11/2019 18:08:45 UTC -- Successful login of user test
+21/11/2019 18:08:45 UTC -- test exited the application.
+21/11/2019 18:15:49 UTC -- Successful login of user test
+21/11/2019 18:15:49 UTC -- test exited the application.
+21/11/2019 18:25:26 UTC -- Successful login of user test
+21/11/2019 18:25:26 UTC -- test logged out of the application.
+21/11/2019 18:25:26 UTC -- Successful login of user Brian
+21/11/2019 18:25:26 UTC -- Brian logged out of the application.
+21/11/2019 18:25:26 UTC -- Application exited before login.
+21/11/2019 18:33:12 UTC -- Successful login of user test
+21/11/2019 18:33:12 UTC -- test exited the application.
+21/11/2019 18:37:00 UTC -- Successful login of user test
+21/11/2019 18:37:00 UTC -- test exited the application.
+21/11/2019 18:40:56 UTC -- Successful login of user test
+21/11/2019 18:40:56 UTC -- test exited the application.
+21/11/2019 18:48:24 UTC -- Successful login of user test
+21/11/2019 18:48:24 UTC -- test exited the application.
+21/11/2019 19:37:06 UTC -- Successful login of user test
+21/11/2019 19:37:06 UTC -- test exited the application.
+21/11/2019 19:51:46 UTC -- Successful login of user test
+21/11/2019 19:51:46 UTC -- test exited the application.
+21/11/2019 19:58:17 UTC -- Successful login of user test
+21/11/2019 19:58:17 UTC -- test exited the application.
+21/11/2019 20:19:40 UTC -- Successful login of user test
+21/11/2019 20:19:40 UTC -- test exited the application.
+21/11/2019 20:23:17 UTC -- Successful login of user test
+21/11/2019 20:23:17 UTC -- test exited the application.
+29/12/2019 17:20:15 UTC -- LOGIN ERROR: admin is not a valid username or bad password.
+29/12/2019 17:20:15 UTC -- Successful login of user test
+29/12/2019 17:20:15 UTC -- test logged out of the application.
+29/12/2019 17:20:15 UTC -- Application exited before login.

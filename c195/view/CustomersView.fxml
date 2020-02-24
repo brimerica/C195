@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="customerAnchorPane" xmlns:fx="http://javafx.com/fxml/1" fx:controller="c195.view.CustomersViewController">
+    <children>
+        <HBox AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" alignment="CENTER">
+            <VBox HBox.hgrow="ALWAYS" alignment="CENTER" spacing="20" >
+                <TableView VBox.vgrow="ALWAYS" fx:id="customerTable" BorderPane.alignment="CENTER_LEFT" >
+                    <columns>
+                        <TableColumn fx:id="customerName" text="Customer Name" prefWidth="100" /> 
+                        <TableColumn fx:id="customerAddress" text="Address" prefWidth="125"/>
+                        <TableColumn fx:id="customerAddress2" text="Address 2" prefWidth="75"/>
+                        <TableColumn fx:id="customerCity" text="City" prefWidth="100"/>
+                        <TableColumn fx:id="customerPostalCode" text="Postal Code" prefWidth="75"/> 
+                        <TableColumn fx:id="customerPhone" text="Phone" prefWidth="100"/> 
+                        <TableColumn fx:id="customerCountry" text="Country" prefWidth="90"/> 
+                    </columns>
+                </TableView>
+                <HBox alignment="BOTTOM_CENTER" spacing="20">
+                    <VBox.margin>
+                        <javafx.geometry.Insets bottom="25" right="25" left="25" top="25"/>
+                    </VBox.margin>
+                    <Button fx:id="customerNewBtn" onAction="#handleCustNewBtn" text="New" />
+                    <Button fx:id="customerEditBtn" onAction="#handleCustEditBtn" text="Edit" />
+                    <Button fx:id="customerDeleteBtn" onAction="#handleCustDeleteBtn" text="Delete" />    
+                </HBox>
+            </VBox>
+            <VBox HBox.hgrow="ALWAYS" alignment="CENTER" spacing="20" >
+                <GridPane VBox.vgrow="ALWAYS" alignment="CENTER" GridPane.fillHeight="true" GridPane.fillWidth="true" gridLinesVisible="false" vgap="20" hgap="15" >
+                    <VBox.margin>
+                        <javafx.geometry.Insets bottom="10" right="10" left="10" top="10"/>
+                    </VBox.margin>
+                    <Label text="Customer Record" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2" GridPane.halignment="CENTER">
+                        <font>
+                            <Font name="System Bold" size="18"/> 
+                        </font>
+                    </Label>
+                    <Label text="Name" GridPane.columnIndex="0" GridPane.rowIndex="1" textAlignment="RIGHT" /> 
+                    <TextField fx:id="nameTextField" GridPane.columnIndex="1" GridPane.rowIndex="1" alignment="CENTER_LEFT" />
+                    <Label text="Address" GridPane.columnIndex="0" GridPane.rowIndex="2" textAlignment="RIGHT"/>
+                    <TextField fx:id="addressTextField" GridPane.columnIndex="1" GridPane.rowIndex="2" alignment="CENTER_LEFT" />
+                    <Label text="Address2" GridPane.columnIndex="0" GridPane.rowIndex="3" textAlignment="RIGHT"/>
+                    <TextField fx:id="address2TextField" GridPane.columnIndex="1" GridPane.rowIndex="3" alignment="CENTER_LEFT" />
+                    <Label text="Phone Number" GridPane.columnIndex="0" GridPane.rowIndex="4" textAlignment="RIGHT"/> 
+                    <TextField fx:id="phoneTextField" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+                    <Label text="City" GridPane.columnIndex="0" GridPane.rowIndex="5" textAlignment="RIGHT"/> 
+                    <ComboBox fx:id="cityComboBox" GridPane.columnIndex="1" GridPane.rowIndex="5"/>
+                    <Label text="Postal Code" GridPane.columnIndex="0" GridPane.rowIndex="6" textAlignment="RIGHT"/> 
+                    <TextField fx:id="postalCodeTextField" GridPane.columnIndex="1" GridPane.rowIndex="6"/>
+                    <Label text="Country" GridPane.columnIndex="0" GridPane.rowIndex="7" textAlignment="RIGHT"/>
+                    <ComboBox fx:id="countryComboBox" GridPane.columnIndex="1" GridPane.rowIndex="7"/> 
+                </GridPane>
+                <HBox alignment="BOTTOM_CENTER" spacing="20">
+                    <VBox.margin>
+                        <javafx.geometry.Insets bottom="25" right="25" left="25" top="25"/>
+                    </VBox.margin>
+                    <Button onAction="#handleCustSaveBtn" fx:id="customerSaveBtn" text="Save"/>
+                    <Button onAction="#handleCustCanceleBtn" fx:id="customerCancelBtn" text="Cancel"/> 
+                </HBox>
+            </VBox>
+        </HBox>
+    </children>
+</AnchorPane>

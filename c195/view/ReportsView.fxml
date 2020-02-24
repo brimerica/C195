@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" id="reportsAnchorPane" prefHeight="400.0" prefWidth="600.0" fx:controller="c195.view.ReportsViewController">
+    <children>
+        <TabPane AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" >
+            <tabs>
+                <Tab fx:id="scheduleByConsultant" text="Schedule By Consultant" closable="false" >
+                    <VBox alignment="TOP_CENTER" spacing="20" >
+                        <TableView fx:id="consultantScheduleTable" prefHeight="600" >
+                            <columns> 
+                                <TableColumn fx:id="createdBySchedule" text="Consultant" prefWidth="125" />
+                                <TableColumn fx:id="titleSchedule" text="Title" prefWidth="125" />
+                                <TableColumn fx:id="descriptionSchedule" text="Description" prefWidth="125" />
+                                <TableColumn fx:id="typeSchedule" text="Type" prefWidth="125" />
+                                <TableColumn fx:id="contactSchedule" text="Contact" prefWidth="125" />
+                                <TableColumn fx:id="startSchedule" text="Start Time" prefWidth="125" />
+                                <TableColumn fx:id="endSchedule" text="End Time" prefWidth="125" />
+                            </columns>
+                        </TableView>
+                        <Label text="Choose Consultant below to show Appointments" />
+                        <ComboBox fx:id="consultantList" VBox.vgrow="ALWAYS" onAction="#handleConsultantSelection" />
+                    </VBox>
+                </Tab>
+                <Tab fx:id="typesByMonth" text="Types by Month" onSelectionChanged="#handleTypeByMonth" closable="false" >
+                    <TableView fx:id="typeMonthTable" >
+                        <columns>
+                            <TableColumn fx:id="typeMonth" text="Type" prefWidth="125"/> 
+                            <TableColumn fx:id="monthMonth" text="Month" prefWidth="125"/> 
+                            <TableColumn fx:id="numberMonth" text="Total" prefWidth="125"/> 
+                        </columns>
+                    </TableView>
+                </Tab>
+                <Tab fx:id="someData" text="Customer by City" onSelectionChanged="#handleCustByCity" closable="false" >
+                    <TableView fx:id="custFromCity" >
+                        <columns>
+                            <TableColumn fx:id="totalCust" text="Total Customers" prefWidth="125"/> 
+                            <TableColumn fx:id="city" text="City" prefWidth="125"/> 
+                            <TableColumn fx:id="country" text="Country" prefWidth="125"/> 
+                        </columns>
+                    </TableView>
+                </Tab> 
+            </tabs>
+        </TabPane>
+    </children>
+</AnchorPane>

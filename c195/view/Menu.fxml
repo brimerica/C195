@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="menuBorderPane" prefHeight="768" prefWidth="1024" xmlns:fx="http://javafx.com/fxml/1" fx:controller="c195.view.MenuController">
+    <top>
+        <MenuBar scaleShape="true" prefWidth="1024" BorderPane.alignment="TOP_LEFT" >
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem onAction="#handleMenuLogout" fx:id="menuLogout" mnemonicParsing="false" />
+                        <MenuItem onAction="#handleMenuExit" fx:id="menuExit" mnemonicParsing="false" text="Exit" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="View">
+                    <items>
+                        <MenuItem onAction="#handleMenuAppointment" fx:id="menuAppointment" mnemonicParsing="false" text="Appointments" />
+                        <MenuItem onAction="#handleMenuCustomer" fx:id="menuCustomers" mnemonicParsing="false" text="Customers" />
+                        <MenuItem onAction="#handleMenuReports" fx:id="menuReports" mnemonicParsing="false" text="Reports" />
+                        <MenuItem onAction="#handleMenuLogs" fx:id="menuLogs" mnemonicParsing="false" text="Logs" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" fx:id="menuUser"/>
+                <Menu mnemonicParsing="false" fx:id="menuTimeZone"/>
+            </menus>
+        </MenuBar>
+    </top>
+</BorderPane>

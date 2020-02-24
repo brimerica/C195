@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font ?>
+<?import javafx.geometry.* ?>
+<?import javafx.scene.paint.* ?>
+
+<BorderPane  xmlns:fx="http://javafx.com/fxml/1" id="BorderPane" prefHeight="300" prefWidth="350" fx:controller="c195.view.LoginController">
+    <bottom>
+        <HBox spacing="15" alignment="BOTTOM_RIGHT">
+            <padding>
+                <Insets bottom="15" right="15"/>   
+            </padding>
+            <Button onAction="#handleLoginButtonAction" fx:id="loginButton" defaultButton="true"/>
+            <Button layoutX="200" layoutY="100" onAction="#handleExitButtonAction" fx:id="exitButton"/>
+        </HBox>  
+    </bottom>
+    <center>
+        <GridPane alignment="center" hgap="20" vgap="10" gridLinesVisible="false">
+            <rowConstraints>
+                <RowConstraints percentHeight="15" />
+                <RowConstraints percentHeight="15" />
+            </rowConstraints>
+            <Label fx:id="appointment" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2" GridPane.halignment="CENTER">
+                <font>
+                    <Font name="System Bold" size="32"/> 
+                </font>
+                <GridPane.margin>
+                    <Insets bottom="0" left="5" right="5" top="5" />    
+                </GridPane.margin>
+                <textFill>
+                    <Color  fx:value="RED"/>
+                </textFill>              
+            </Label>
+            <Label fx:id="software" GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" >
+                <font>
+                    <Font name="System Bold" size="32"/> 
+                </font>
+                <GridPane.margin>
+                    <Insets bottom="5" left="5" right="5" top="0" />    
+                </GridPane.margin>
+                <textFill>
+                    <Color  fx:value="RED"/>
+                </textFill>                 
+            </Label>
+            <Label fx:id="username" GridPane.columnIndex="0" GridPane.rowIndex="2" textAlignment="RIGHT" >
+                <GridPane.margin>
+                    <Insets bottom="5" left="5" right="5" top="5" />    
+                </GridPane.margin>
+            </Label>
+            <TextField fx:id="usernameField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label fx:id="password" GridPane.columnIndex="0" GridPane.rowIndex="3" textAlignment="RIGHT">
+                <GridPane.margin>
+                    <Insets bottom="5" left="5" right="5" top="5" />    
+                </GridPane.margin>
+            </Label>
+            <PasswordField fx:id="passwordField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label fx:id="locale" GridPane.columnIndex="0" GridPane.rowIndex="4" GridPane.columnSpan="2" GridPane.halignment="CENTER" >
+                <textFill>
+                    <Color fx:value="RED"/>
+                </textFill>
+            </Label>
+        </GridPane>
+    </center>
+</BorderPane>

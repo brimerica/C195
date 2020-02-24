@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="c195.view.LogsViewController">
+    <GridPane id="logGridPane" alignment="CENTER" AnchorPane.bottomAnchor="3" AnchorPane.leftAnchor="3" AnchorPane.rightAnchor="3" AnchorPane.topAnchor="3" >
+        <Label text="Log File View" fx:id="logsLabel" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.halignment="CENTER">
+            <font>
+                <Font name="System Bold" size="16" />   
+            </font>
+        </Label>
+        <TextArea editable="false"  fx:id="logview" GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS" GridPane.halignment="CENTER" />
+        <Button fx:id="logfileBtn" text="Open Saved Log File..."  onAction="#handleLogView" GridPane.columnIndex="0" GridPane.rowIndex="2" GridPane.halignment="CENTER"  /> 
+    </GridPane>
+</AnchorPane>
